@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 20px;
+    margin-left: 550px;
+    background: #a0a0a0;
+    width: 700px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.text{
+    color:blueviolet;
+    font-size: 50px;
+    font-weight: 850;
+    margin: 10px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.active {
+    font-weight:800;
+}
+
+.inactive {
+    color: #6c757d; 
+    font-weight: normal;
+}
+
+.underline {
+    height: 2px;
+    background-color: #000;
+    width: 100px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: beige;
+    border-radius: 5px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    font-weight: 200;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:black;
+    font-size: 25px;
+}
+
+.submit-container{
+    display: flex;
+    gap: 35px;
+    margin: 150px auto; /*distance between last input and buttons*/
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    color:beige;
+    background: blueviolet;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-inactive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    color:beige;
+    background: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}

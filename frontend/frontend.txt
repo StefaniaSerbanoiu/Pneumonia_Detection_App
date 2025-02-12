@@ -1,1 +1,6 @@
 
+How to run frontend:
+
+cd detection_frontend
+npm install
+npm run dev

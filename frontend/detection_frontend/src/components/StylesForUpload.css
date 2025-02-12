@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+    overflow-y: auto; /* vertical scrolling */
+    padding-top: 100px;
+    color: white; 
+    border-radius: 20px;
+    margin-top: 500px;
+  }
+  
+  .menu {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .upload-box {
+    flex: 1;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    margin: 20px;
+  }
+  
+  .image-preview {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .result {
+    flex: 1;
+    padding: 20px;
+  }
+
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* gap between buttons */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
