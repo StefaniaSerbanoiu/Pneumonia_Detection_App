@@ -1,0 +1,5 @@
+.env
+venv/
+db.sqlite
+pneumonia_model.h5
+__pycache__

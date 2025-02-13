@@ -1,6 +1,6 @@
 
 How to run frontend:
 
-cd detection_frontend
+cd frontend/detection_frontend
 npm install
 npm run dev

@@ -1,1 +1,26 @@
 
+How to run backend (open terminal, first go to folder, activate virtual environment, then run the app):
+
+cd backend/backend_flask
+.\venv\Scripts\activate
+python -m flask run
+    - start a local development server, wgich runs on http://127.0.0.1:5000/
+
+
+
+
+for installation (open terminal, go to backend folder, create virtual environment, activate virtual environment, then install requirements):
+
+cd backend/backend_flask
+python -m venv venv
+.\venv\Scripts\activate
+    - if activation is successful, (venv) should appear at the beginning of the command line
+pip install -r requirements.txt
+or
+python -m pip install flask flask_bcrypt flask-sqlalchemy flask_session python-dotenv redis flask-cors tensorflow gevent 
+
+Then, create a file named '.env' in the backend/backend_flask directory and add the following line(to define the secret key): SECRET_KEY=someSecretKey
+
+
+
+
