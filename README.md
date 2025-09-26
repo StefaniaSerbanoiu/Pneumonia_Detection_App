@@ -1,6 +1,5 @@
-# Pneumonia_Detection_App
+# Pneumonia Detection App
 
-# Pneumonia Detection Web Application  
 A full-stack web application that leverages **deep learning** to detect pneumonia from chest X-ray images. The system integrates a custom-trained AI model with a secure backend and an intuitive frontend, enabling users to upload medical images and receive predictions in real time.  
 
 ---
