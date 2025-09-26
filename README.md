@@ -1,5 +1,4 @@
-# Pneumonia Detection App
-
+# Pneumonia Detection Web Application  
 A full-stack web application that leverages **deep learning** to detect pneumonia from chest X-ray images. The system integrates a custom-trained AI model with a secure backend and an intuitive frontend, enabling users to upload medical images and receive predictions in real time.  
 
 ---
@@ -33,6 +32,7 @@ The application combines modern web development practices with applied machine l
 ---
 
 ## AI Model  
+
 - **Base architecture:** MobileNetV2 (TensorFlow pretrained model)  
 - **Method:** Transfer learning with custom modifications  
 - **Goal:** Enhance pneumonia detection while maintaining efficiency  
@@ -43,15 +43,15 @@ The application combines modern web development practices with applied machine l
 ---
 
 ## Tech Stack  
-**Frontend:**  
-- React  
-**Backend:**  
-- Flask  
+**Backend:** Flask  
+**Frontend:**  React
+
 **Database & Authentication:**  
 - SQLAlchemy  
 - SQLite  
 - Session-based authentication
 - Bcrypt
+    
 **AI/ML:**  
 - TensorFlow / Keras  
 - MobileNetV2 (transfer learning)  
@@ -59,6 +59,7 @@ The application combines modern web development practices with applied machine l
 ---
 
 ## Future Improvements  
+
 - Add role-based access for doctors/patients  
 - Enable cloud storage for secure medical history tracking  
 - Integrate visualization tools for explainability  
